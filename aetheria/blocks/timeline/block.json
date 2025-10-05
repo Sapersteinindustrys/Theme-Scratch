@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "aetheria/timeline",
+  "version": "1.0.0",
+  "title": "Timeline",
+  "category": "aetheria",
+  "icon": "clock",
+  "description": "Timeline of events",
+  "attributes": {
+    "items": {
+      "type": "array",
+      "default": []
+    },
+    "alignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "showConnector": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "textdomain": "aetheria",
+  "render": "file:./render.php"
+}

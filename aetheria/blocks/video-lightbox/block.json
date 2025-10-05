@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "aetheria/video-lightbox",
+  "version": "1.0.0",
+  "title": "Video Lightbox",
+  "category": "aetheria",
+  "icon": "video-alt3",
+  "description": "Video player with lightbox",
+  "attributes": {
+    "videoUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "posterID": {
+      "type": "number",
+      "default": 0
+    },
+    "playButtonStyle": {
+      "type": "string",
+      "default": "minimal"
+    },
+    "aspect": {
+      "type": "string",
+      "default": "16:9"
+    }
+  },
+  "textdomain": "aetheria",
+  "render": "file:./render.php"
+}

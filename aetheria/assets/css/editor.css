@@ -1,0 +1,14 @@
+/**
+ * Editor Styles
+ *
+ * @package Aetheria
+ * @since 1.0.0
+ */
+
+@import './variables.css';
+
+.editor-styles-wrapper {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: var(--aeth-font-size-body);
+  line-height: var(--aeth-line-height-body);
+}

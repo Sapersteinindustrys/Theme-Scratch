@@ -1,0 +1,65 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "aetheria/hero",
+  "version": "1.0.0",
+  "title": "Hero",
+  "category": "aetheria",
+  "icon": "cover-image",
+  "description": "A hero section with background image, heading, and call-to-action",
+  "supports": {
+    "anchor": true,
+    "align": ["wide", "full"],
+    "html": false
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "subheading": {
+      "type": "string",
+      "default": ""
+    },
+    "mediaID": {
+      "type": "number",
+      "default": 0
+    },
+    "mediaAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "overlayOpacity": {
+      "type": "number",
+      "default": 0.4
+    },
+    "alignment": {
+      "type": "string",
+      "default": "center",
+      "enum": ["left", "center", "right"]
+    },
+    "ctaText": {
+      "type": "string",
+      "default": ""
+    },
+    "ctaUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "height": {
+      "type": "string",
+      "default": "medium",
+      "enum": ["short", "medium", "tall"]
+    },
+    "variant": {
+      "type": "string",
+      "default": "light",
+      "enum": ["light", "dark", "gradient"]
+    }
+  },
+  "textdomain": "aetheria",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css",
+  "render": "file:./render.php"
+}

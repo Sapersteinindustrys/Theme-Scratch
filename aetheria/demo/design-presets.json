@@ -1,0 +1,31 @@
+{
+  "presets": [
+    {
+      "name": "Minimal Portfolio",
+      "settings": {
+        "palette_variant": "monochrome",
+        "typography_primary": "inter",
+        "header_style": "minimal",
+        "footer_columns": 2
+      }
+    },
+    {
+      "name": "Editorial Blog",
+      "settings": {
+        "palette_variant": "neutral",
+        "typography_primary": "fraunces",
+        "header_style": "center",
+        "footer_columns": 3
+      }
+    },
+    {
+      "name": "Dark Portfolio",
+      "settings": {
+        "palette_variant": "soft-dark",
+        "typography_primary": "inter",
+        "header_style": "split",
+        "footer_columns": 4
+      }
+    }
+  ]
+}

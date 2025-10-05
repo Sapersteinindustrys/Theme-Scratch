@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "aetheria/feature-grid",
+  "version": "1.0.0",
+  "title": "Feature Grid",
+  "category": "aetheria",
+  "icon": "grid-view",
+  "description": "A grid of features with icons, titles, and descriptions",
+  "supports": {
+    "anchor": true,
+    "align": ["wide", "full"],
+    "html": false
+  },
+  "attributes": {
+    "features": {
+      "type": "array",
+      "default": []
+    },
+    "columns": {
+      "type": "number",
+      "default": 3
+    },
+    "iconStyle": {
+      "type": "string",
+      "default": "outline",
+      "enum": ["outline", "solid", "none"]
+    },
+    "gap": {
+      "type": "string",
+      "default": "normal",
+      "enum": ["compact", "normal", "loose"]
+    }
+  },
+  "textdomain": "aetheria",
+  "render": "file:./render.php"
+}

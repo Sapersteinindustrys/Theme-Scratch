@@ -1,0 +1,16 @@
+/**
+ * Dark Mode Styles
+ *
+ * @package Aetheria
+ * @since 1.0.0
+ */
+
+[data-theme="dark"] {
+  --aeth-color-bg: #1A1A1A;
+  --aeth-color-surface: #2A2A2A;
+  --aeth-color-text: #E5E5E5;
+  --aeth-color-text-subtle: #A0A0A0;
+  --aeth-color-border: #404040;
+  --aeth-color-accent: #60A5FA;
+  --aeth-color-accent-hover: #93C5FD;
+}

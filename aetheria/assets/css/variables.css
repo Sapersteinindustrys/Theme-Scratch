@@ -1,0 +1,87 @@
+/**
+ * CSS Variables
+ *
+ * @package Aetheria
+ * @since 1.0.0
+ */
+
+:root {
+  /* Colors */
+  --aeth-color-bg: #FFFFFF;
+  --aeth-color-surface: #F8F9FA;
+  --aeth-color-text: #1A1A1A;
+  --aeth-color-text-subtle: #6B7280;
+  --aeth-color-accent: #2563EB;
+  --aeth-color-accent-hover: #1E40AF;
+  --aeth-color-border: #E5E7EB;
+  --aeth-color-success: #10B981;
+  --aeth-color-warning: #F59E0B;
+  --aeth-color-error: #EF4444;
+  
+  /* Spacing */
+  --aeth-space-2: 0.125rem;
+  --aeth-space-4: 0.25rem;
+  --aeth-space-8: 0.5rem;
+  --aeth-space-12: 0.75rem;
+  --aeth-space-16: 1rem;
+  --aeth-space-20: 1.25rem;
+  --aeth-space-24: 1.5rem;
+  --aeth-space-32: 2rem;
+  --aeth-space-40: 2.5rem;
+  --aeth-space-48: 3rem;
+  --aeth-space-56: 3.5rem;
+  --aeth-space-64: 4rem;
+  --aeth-space-72: 4.5rem;
+  --aeth-space-96: 6rem;
+  --aeth-space-128: 8rem;
+  
+  /* Typography */
+  --aeth-font-size-display: clamp(2.8rem, 5vw, 4rem);
+  --aeth-font-size-h1: clamp(2.2rem, 4vw, 3.2rem);
+  --aeth-font-size-h2: clamp(1.9rem, 3vw, 2.6rem);
+  --aeth-font-size-h3: clamp(1.55rem, 2.2vw, 2rem);
+  --aeth-font-size-body: clamp(1rem, 1.1vw, 1.125rem);
+  --aeth-font-size-small: 0.875rem;
+  
+  --aeth-line-height-display: 1.05;
+  --aeth-line-height-heading: 1.15;
+  --aeth-line-height-body: 1.55;
+  
+  --aeth-font-weight-light: 300;
+  --aeth-font-weight-regular: 400;
+  --aeth-font-weight-medium: 500;
+  --aeth-font-weight-semibold: 600;
+  --aeth-font-weight-bold: 700;
+  
+  /* Border Radius */
+  --aeth-radius-sm: 4px;
+  --aeth-radius-md: 8px;
+  --aeth-radius-lg: 12px;
+  --aeth-radius-xl: 16px;
+  --aeth-radius-full: 9999px;
+  
+  /* Shadows */
+  --aeth-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --aeth-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --aeth-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --aeth-shadow-hover: 0 6px 18px rgba(0, 0, 0, 0.12);
+  
+  /* Transitions */
+  --aeth-duration-fast: 120ms;
+  --aeth-duration-normal: 180ms;
+  --aeth-duration-slow: 300ms;
+  --aeth-ease-standard: cubic-bezier(0.4, 0.25, 0.3, 1);
+  --aeth-ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --aeth-ease-out: cubic-bezier(0, 0, 0.2, 1);
+  
+  /* Z-Index */
+  --aeth-z-dropdown: 1000;
+  --aeth-z-sticky: 1020;
+  --aeth-z-modal: 1050;
+  --aeth-z-popover: 1060;
+  --aeth-z-tooltip: 1070;
+  
+  /* Layout */
+  --aeth-content-width: 720px;
+  --aeth-wide-width: 1120px;
+}
