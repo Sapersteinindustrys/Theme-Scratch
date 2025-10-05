@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Serif Editorial",
+  "settings": {
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Fraunces, serif",
+          "slug": "fraunces",
+          "name": "Fraunces"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--fraunces)",
+      "fontSize": "var(--wp--preset--font-size--medium)"
+    },
+    "elements": {
+      "h1": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--fraunces)",
+          "fontWeight": "600"
+        }
+      }
+    }
+  }
+}
