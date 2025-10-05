@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "aetheria/masonry-gallery",
+  "version": "1.0.0",
+  "title": "Masonry Gallery",
+  "category": "aetheria",
+  "icon": "format-gallery",
+  "description": "Masonry-style image gallery",
+  "attributes": {
+    "images": {
+      "type": "array",
+      "default": []
+    },
+    "gap": {
+      "type": "string",
+      "default": "normal"
+    },
+    "captions": {
+      "type": "boolean",
+      "default": false
+    },
+    "lightbox": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "textdomain": "aetheria",
+  "render": "file:./render.php"
+}

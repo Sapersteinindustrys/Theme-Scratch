@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "aetheria/portfolio-query",
+  "version": "1.0.0",
+  "title": "Portfolio Query",
+  "category": "aetheria",
+  "icon": "portfolio",
+  "description": "Display portfolio items with optional filtering",
+  "supports": {
+    "anchor": true,
+    "align": ["wide", "full"],
+    "html": false
+  },
+  "attributes": {
+    "category": {
+      "type": "string",
+      "default": ""
+    },
+    "limit": {
+      "type": "number",
+      "default": 6
+    },
+    "columns": {
+      "type": "number",
+      "default": 3
+    },
+    "showFilters": {
+      "type": "boolean",
+      "default": false
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "date"
+    },
+    "order": {
+      "type": "string",
+      "default": "DESC"
+    }
+  },
+  "textdomain": "aetheria",
+  "render": "file:./render.php"
+}

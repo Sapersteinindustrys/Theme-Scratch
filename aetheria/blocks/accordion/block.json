@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "aetheria/accordion",
+  "version": "1.0.0",
+  "title": "Accordion",
+  "category": "aetheria",
+  "icon": "list-view",
+  "description": "Expandable accordion items",
+  "attributes": {
+    "items": {
+      "type": "array",
+      "default": []
+    },
+    "allowMultiple": {
+      "type": "boolean",
+      "default": false
+    },
+    "iconPosition": {
+      "type": "string",
+      "default": "left"
+    }
+  },
+  "textdomain": "aetheria",
+  "render": "file:./render.php"
+}

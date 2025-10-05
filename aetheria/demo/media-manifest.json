@@ -1,0 +1,23 @@
+{
+  "images": [
+    {
+      "filename": "hero-background.jpg",
+      "title": "Hero Background",
+      "alt": "Abstract geometric pattern",
+      "usage": "Hero block backgrounds"
+    },
+    {
+      "filename": "portfolio-1.jpg",
+      "title": "Portfolio Project 1",
+      "alt": "Web design project screenshot",
+      "usage": "Portfolio featured images"
+    },
+    {
+      "filename": "testimonial-headshot.jpg",
+      "title": "Client Headshot",
+      "alt": "Professional headshot",
+      "usage": "Testimonial headshots"
+    }
+  ],
+  "note": "Images not included in theme package. Users must provide their own images."
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "aetheria/cta-band",
+  "version": "1.0.0",
+  "title": "CTA Band",
+  "category": "aetheria",
+  "icon": "megaphone",
+  "description": "Call-to-action banner",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "subText": {
+      "type": "string",
+      "default": ""
+    },
+    "primaryCtaText": {
+      "type": "string",
+      "default": ""
+    },
+    "primaryCtaUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "secondaryCtaText": {
+      "type": "string",
+      "default": ""
+    },
+    "secondaryCtaUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "variant": {
+      "type": "string",
+      "default": "accent"
+    }
+  },
+  "textdomain": "aetheria",
+  "render": "file:./render.php"
+}

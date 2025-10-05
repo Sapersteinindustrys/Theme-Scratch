@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "aetheria/newsletter",
+  "version": "1.0.0",
+  "title": "Newsletter",
+  "category": "aetheria",
+  "icon": "email",
+  "description": "Newsletter subscription form",
+  "supports": {
+    "anchor": true,
+    "align": ["wide", "full"],
+    "html": false
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Subscribe"
+    },
+    "successMessage": {
+      "type": "string",
+      "default": "Successfully subscribed!"
+    },
+    "errorMessage": {
+      "type": "string",
+      "default": "An error occurred. Please try again."
+    },
+    "placeholder": {
+      "type": "string",
+      "default": "Your email"
+    }
+  },
+  "textdomain": "aetheria",
+  "render": "file:./render.php"
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "aetheria/logo-cloud",
+  "version": "1.0.0",
+  "title": "Logo Cloud",
+  "category": "aetheria",
+  "icon": "images-alt2",
+  "description": "Display client or partner logos",
+  "attributes": {
+    "logos": {
+      "type": "array",
+      "default": []
+    },
+    "columns": {
+      "type": "number",
+      "default": 5
+    },
+    "grayscale": {
+      "type": "boolean",
+      "default": true
+    },
+    "hoverColorize": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "textdomain": "aetheria",
+  "render": "file:./render.php"
+}

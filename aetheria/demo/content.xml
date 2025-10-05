@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/">
+  
+  <channel>
+    <title>Aetheria Demo Content</title>
+    <description>Demo content for Aetheria theme</description>
+    
+    <item>
+      <title>Design Study Alpha</title>
+      <wp:post_type>post</wp:post_type>
+      <wp:post_name>design-study-alpha</wp:post_name>
+      <wp:status>publish</wp:status>
+      <content:encoded><![CDATA[
+        <p>This is an example blog post demonstrating the editorial features of the Aetheria theme.</p>
+        <h2>Section One</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <h2>Section Two</h2>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      ]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Case Narrative Beta</title>
+      <wp:post_type>portfolio</wp:post_type>
+      <wp:post_name>case-narrative-beta</wp:post_name>
+      <wp:status>publish</wp:status>
+      <content:encoded><![CDATA[
+        <p>A portfolio project showcasing design and development work.</p>
+        <h2>Project Overview</h2>
+        <p>This project demonstrates the capabilities of the portfolio custom post type.</p>
+      ]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

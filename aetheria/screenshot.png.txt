@@ -1,0 +1,10 @@
+This is a placeholder for screenshot.png (1200x900px)
+The actual screenshot should show the theme homepage with:
+- Hero section at the top
+- Feature grid below
+- Portfolio showcase
+- Testimonials
+- Newsletter signup
+- Footer
+
+Screenshot dimensions: 1200 x 900 pixels

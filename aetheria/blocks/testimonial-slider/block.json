@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "aetheria/testimonial-slider",
+  "version": "1.0.0",
+  "title": "Testimonial Slider",
+  "category": "aetheria",
+  "icon": "format-quote",
+  "description": "A slider of testimonials",
+  "supports": {
+    "anchor": true,
+    "align": ["wide", "full"],
+    "html": false
+  },
+  "attributes": {
+    "testimonials": {
+      "type": "array",
+      "default": []
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "interval": {
+      "type": "number",
+      "default": 5000
+    },
+    "showDots": {
+      "type": "boolean",
+      "default": true
+    },
+    "showArrows": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "textdomain": "aetheria",
+  "render": "file:./render.php"
+}
