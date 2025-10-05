@@ -1,0 +1,6 @@
+{
+  "front.js": "assets/js/front.js",
+  "editor.js": "assets/js/editor.js",
+  "front.css": "assets/css/front.css",
+  "editor.css": "assets/css/editor.css"
+}
